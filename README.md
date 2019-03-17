@@ -11,14 +11,25 @@ git clone git@github.com:w3geekery/EugCast.git && cd EugCast;
 
 ## Access
 
-Some users have reported issues using `localhost` when certain projects introduce redirects in the local data.  Therefore, it is suggested to use `xip.io` instead of `localhost`, replacing `wordpress` with the project name.
+### Local
 
-- [http://eugcast.127.0.0.1.xip.io/](http://eugcast.127.0.0.1.xip.io/)
-- [http://eugcast.127.0.0.1.xip.io/wp-admin/](http://eugcast.127.0.0.1.xip.io/wp-admin/)
+I'm using Laravel Valet for my local dev environment.
 
-### admin
+You can follow these instructions to duplicate the dev environment on your local:
+https://laravel.com/docs/5.3/valet#installation
+
+
+#### local admin
 
 - Username: `eugcast_admin`
 - Password: `qwe123`
 
----
+
+
+### Staging
+TBD
+
+### Production
+TBD
+
+
